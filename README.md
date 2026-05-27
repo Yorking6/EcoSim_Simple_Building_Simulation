@@ -25,6 +25,7 @@ Create a dedicated virtual environment. While you can specify any local path, it
 
 ```bash
 # Example using a custom path in the user directory
+
 python -m virtualenv "C:\Users\<your_username>\venv1025"
 ```
 
@@ -36,6 +37,7 @@ Before running the activation script, you may need to adjust execution policies 
 
 ```powershell
 # Set execution policy for the current user
+
 Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 ```
 
@@ -44,8 +46,9 @@ When prompted by the system, type `Y` and press **Enter** to confirm.
 Now, navigate to the directory and activate the environment:
 
 ```powershell
-cd "C:\Users\<your_username>"
-.\venv1025\Scripts\activate
+1. cd "C:\Users\<your_username>"
+
+2. .\venv1025\Scripts\activate
 ```
 
 **Verification:** Once successfully activated, you will see `(venv1025)` prepended to your terminal prompt.
@@ -72,12 +75,15 @@ You can acquire the latest source code using one of the following methods.
 If you have Git installed, clone the repository directly to your local workspace:
 ```bash
 # Navigate to your workspace (e.g., C:\Users\<your_username>\EcoSim_Simple_Building_Simulation)
+
 cd "C:\Users\<your_username>\EcoSim_Simple_Building_Simulation"
 
 # Clone the repository
+
 git clone https://github.com/Yorking6/EcoSim_Simple_Building_Simulation.git
 
 # Enter the project directory
+
 cd SimpleBuildingSimulation
 ```
 
@@ -100,6 +106,7 @@ Once you are inside the project root directory, you need to trigger Reflex's int
 
 ```Bash
 # Ensure your virtual environment (venv1025) is activated first
+
 reflex init --loglevel debug
 ```
 
