@@ -1,5 +1,7 @@
 # EcoSim Pro Simple Building Simulation
 
+若要查看中文版自述文件，请点击 [README_zh_cn](README_zh_cn.md)
+
 A Reflex-based web application for building services simulation and thermal comfort analysis.
 
 ---
